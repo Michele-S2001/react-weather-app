@@ -5,6 +5,7 @@
 }
 
 .meteo {
+  user-select: none;
   max-width: 80%;
   margin: 24px auto 0 auto;
   text-align: center;
@@ -37,6 +38,11 @@
   color: white;
   text-shadow: 2px 2px black;
   margin-bottom: 24px;
+  transition: all 200ms ease-out;
+}
+
+.meteo .temp:hover {
+  transform: scale(1.1);
 }
 
 .meteo .other_stats {

@@ -25,11 +25,11 @@ export default function Searchbar({ getCityWeather}) {
       <input 
         onKeyUp={handleEnter}
         value={input}
-        placeholder='Inserisci il nome di una città' 
+        placeholder='Enter the name of a city' 
         type="text" 
         onChange={(e) => setInput(e.target.value)}
       />
-      <button onClick={handleSearch} >Cerca</button>
+      <button onClick={handleSearch} >Search</button>
     </div>
   )
 }

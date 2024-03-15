@@ -1,0 +1,8 @@
+.weather_card {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255,255,255, 0.2);
+  padding: 40px 20px 20px 20px;
+  border-radius: 20px;
+}

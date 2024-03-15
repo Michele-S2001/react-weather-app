@@ -1,0 +1,38 @@
+@import '@fontsource/poppins';
+
+:root {
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #549af2;
+  background-size: cover;
+  background-image: url('clouds-background.png');
+}
+
+input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  background: transparent;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}

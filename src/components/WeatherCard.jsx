@@ -12,7 +12,12 @@ export default function WeatherCard() {
   const getCityWeather = (city) => {
 
     axios
-    .get(`http://api.weatherapi.com/v1/current.json?q=${city}&key=9ac416724ffa401b95e144142241503`)
+    .get(`http://api.weatherapi.com/v1/current.json`, {
+      params: {
+        q: `${city}`,
+        key: '9ac416724ffa401b95e144142241503'
+      }
+    })
     .then((res) => {
       setCurrentWeather(res.data.current);
       setLocation(res.data.location)

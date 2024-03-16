@@ -30,6 +30,11 @@
   display: block;
   width: 100%;
   margin: 0 auto;
+  transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.meteo .weather_conditions img:hover {
+  transform: rotate(-10deg);
 }
 
 .meteo .temp {

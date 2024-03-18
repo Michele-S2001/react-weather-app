@@ -38,7 +38,7 @@ export default function CityWeather ({ currentWeather, location}) {
 
         </div>
       ) : (
-        <p className={styles.not_found}>Città non trovata</p>
+        <p className={styles.not_found}>City not found</p>
       )}
     </>
   )

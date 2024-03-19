@@ -10,6 +10,12 @@
   line-height: 34px;
   padding: 0 10px;
   font-size: 18px;
+  border-radius: 10px;
+}
+
+.search_input .field.display_error {
+  border-bottom-color: red;
+  background-color: rgba(255, 0, 0, 0.3);
 }
 
 .search_input input::placeholder {
@@ -31,3 +37,20 @@
 .search_input button:hover {
   transform: scale(1.05);
 }
+
+.void_field_error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 14px;
+  animation-name: error-shaking;
+  animation-duration: 200ms;
+}
+
+@keyframes error-shaking {
+  0% { transform: translateX(0) }
+  25% { transform: translateX(5px) }
+  50% { transform: translateX(-5px) }
+  75% { transform: translateX(5px) }
+  100% { transform: translateX(0) }
+ }
